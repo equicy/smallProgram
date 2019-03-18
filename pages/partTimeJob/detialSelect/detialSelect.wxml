@@ -1,0 +1,51 @@
+<template name="detialSelect">
+  <view class='filterContianer'>
+    <view class='area'>
+      <view class='areaTitle'>
+        <text class='areaTitleFirst'>兼职</text>
+        <text>区域</text>
+      </view>
+      <view class='areaContext'>
+        <block wx:for="{{partTimeArea}}" wx:for-item="item" wx:key="i">
+          <view class='areaContextElement'>
+            <text>{{item}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='area'>
+      <view class='areaTitle'>
+        <text class='areaTitleFirst'>结算</text>
+        <text>方式</text>
+      </view>
+      <view class='areaContext'>
+        <block wx:for="{{settleWay}}" wx:for-item="item" wx:key="i">
+          <view class='areaContextElement'>
+            <text>{{item}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='area'>
+      <view class='areaTitle'>
+        <text class='areaTitleFirst'>性别</text>
+        <text>要求</text>
+      </view>
+      <view class='areaContext'>
+        <block wx:for="{{gender}}" wx:for-item="item" wx:key="i">
+          <view class='areaContextElement'>
+            <text>{{item}}</text>
+          </view>
+        </block>
+      </view>
+    </view>
+    <view class='filterSubmit'>
+      <view class='reset'>
+        <text>重置</text>
+      </view>
+      <view class='submit'>
+        <text>确定</text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,95 @@
+<view class='container'>
+  <view class='header'>
+
+    <view class='avatar'>
+      <image mode='aspectFill' src='/img/xues.jpg'></image>
+    </view>
+
+    <view class='context'>
+      <view class='top'>
+        <view class='name'>Gloria</view>
+        <view class='score'>
+          <image src='/img/icon/star.png'></image>
+          <view class='star'>4.5</view>
+        </view>
+      </view>
+      <view class='bottom'>
+        天津学而思培训学校
+      </view>
+    </view>
+
+    <view class='release'>
+      <text>去认证</text>
+      <image src='/img/icon/turnRignt.png'></image>
+    </view>
+
+  </view>
+
+  <view class='p-body'>
+    <view class='p-b-title'>
+      <view class='p-dot'></view>
+      <view>审核通过-已报名11人</view>
+    </view>
+    <view class='p-b-item'>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_xsubjects@2.png'></image>
+        <view class='item-key'>招聘岗位</view>
+        <view class='item-value'>初中化学辅导</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/58@2x.png'></image>
+        <view class='item-key'>发布时间</view>
+        <view class='item-value'>2019-3-15</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_Location@2x.png'></image>
+        <view class='item-key'>工作地点</view>
+        <view class='item-value'>咸水沽水岸华庭</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_time@2x.png'></image>
+        <view class='item-key'>工作时间</view>
+        <view class='item-value'>周六、周日</view>
+      </view>
+      <view class='item-bottom'>
+        <view class='item-btn'>查看详情</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='p-body'>
+    <view class='p-b-title-fail'>
+      <view class='p-dot-fail'></view>
+      <view>审核失败-请重新输入</view>
+    </view>
+    <view class='p-b-item'>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_xsubjects@2.png'></image>
+        <view class='item-key'>招聘岗位</view>
+        <view class='item-value'>初中化学辅导</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/58@2x.png'></image>
+        <view class='item-key'>发布时间</view>
+        <view class='item-value'>2019-3-15</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_Location@2x.png'></image>
+        <view class='item-key'>工作地点</view>
+        <view class='item-value'>咸水沽水岸华庭</view>
+      </view>
+      <view class='item-son'>
+        <image src='/img/icon/new/icon_time@2x.png'></image>
+        <view class='item-key'>工作时间</view>
+        <view class='item-value'>周六、周日</view>
+      </view>
+      <view class='item-bottom'>
+        <view class='item-btn'>查看详情</view>
+      </view>
+    </view>
+  </view>
+
+  <view class='p-button' bindtap='turnstep1'>
+    <image src='/img/icon/new/59@2x.png'></image>
+  </view>
+</view>

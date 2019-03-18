@@ -1,0 +1,25 @@
+<template name="comment">
+  <view class='detail-item'>
+        <view class='comment-avatar'>
+          <image src='/img/icon/aaaa.jpg'></image>
+        </view>
+        <view class='comment-context'>
+
+          <view class='comment-message'>
+            <view class='comment-left'>
+              <view class='comment-name'>马君伟</view>
+              <view class='comment-time'>17分钟前</view>
+            </view>
+            <view class='comment-agree'>
+              <image src='/img/icon/located.png'></image>
+              <text>223</text>
+            </view>
+          </view>
+
+          <view class='comment-text'>
+            好憧憬爱情呀……
+          </view>
+
+        </view>
+      </view>
+</template>

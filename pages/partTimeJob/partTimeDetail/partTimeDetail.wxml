@@ -1,0 +1,128 @@
+<import src="../partTimeList/partTimeList.wxml" />
+<view class="container">
+  <view class='job'>
+    <view class='job-caption'>
+      <view class='caption'>小学英语家教</view>
+      <view class='salary'>80-100元/小时</view>
+    </view>
+    <view class='guarantee'>
+      <image src='/img/icon/protect.png'></image>
+    </view>
+    <view class='job-way'>
+      <view class='number'>
+        <text>招聘人数：2人</text>
+      </view>
+      <view class='way'>
+        <text>结算方式：日结</text>
+      </view>
+    </view>
+    <view class='job-map'>
+      <view class='address'>
+        <image src='/img/icon/located.png'></image>
+        <text>南开区二纬路龙湖里78号</text>
+      </view>
+      <view class='distance'>
+        <text>1.2KM</text>
+        <image class='turnRight' src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='recruit-detail'>
+    <view class='detailTitle'>
+      <text>招聘详情</text>
+    </view>
+    <view class='recruit-content'>
+      {{jobDetail}}
+    </view>
+    <view class='recruit-content'>
+      {{jobDetail}}
+    </view>
+    <view class='recruit-content'>
+      {{jobDetail}}
+    </view>
+  </view>
+  <view class='recruit-detail'>
+    <view class='detailTitle'>
+      <text>商家信息</text>
+    </view>
+    <view class='seller'>
+      <view class='seller-avator'>
+        <image src='/img/icon/aaaa.jpg'></image>
+      </view>
+      <view class='seller-data'>
+        <view class='seller-top'>
+          <view class='seller-type'>家长自招</view>
+          <view class='seller-certification'>
+            <image src='/img/icon/personCertification.png'></image>
+          </view>
+        </view>
+        <view class='seller-bottom'>
+          <text class='type'>个人</text>
+          <view class='grade'>
+            <image src='/img/icon/star.png'></image>
+            <text>4.7</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='recruit-detail'>
+    <view class='detailTitle'>
+      <text>类似岗位</text>
+    </view>
+    <view class='partTimeList'>
+      <template is="partTimeList" />
+      <template is="partTimeList" />
+      <template is="partTimeList" />
+    </view>
+  </view>
+  <view class='detail-bottom'>
+    <view class='detail-collection'>
+      <image src='/img/icon/collecte.png'></image>
+      <view class='collection-text'>
+        <text>收藏</text>
+      </view>
+    </view>
+    <view bindtap='changeEnroll' class='signUp'>
+      立即报名
+    </view>
+  </view>
+</view>
+<view class='out-container {{showOrHidden?"show":"hide"}}'>
+<view class='enroll'>
+  <view class='enroll-title'>
+    <view class='enroll-left'>报名留言</view>
+    <view bindtap='changeEnroll' class='enroll-right'>取消</view>
+  </view>
+  <view class='enroll-input'>
+    <textarea
+     placeholder="快把自己推荐给公司吧" 
+     placeholder-class='textarea-place'
+     maxlength='200'
+     bindinput="bindAreaInput"
+     fixed="true">
+    </textarea>
+  </view>
+  <view class='input-number'>
+    {{numberCount}}/200
+  </view>
+  <view class='select-resume'>选择简历</view>
+  <view class='enroll-resume'>
+    <radio-group class='radio-group'>
+      <label class='enroll-label'>
+        <radio value='卡片简历' checked='true'></radio>
+        卡片简历
+      </label>
+      <label class='enroll-label'>
+        <radio value='附件简历'></radio>
+        附件简历
+      </label>
+    </radio-group>
+    <view class='enroll-btn'>极速报名</view>
+    <view class='ennroll-protocol'>
+      报名表示已经同意
+      <text>《卡片兼职用户协议》</text>
+    </view>
+  </view>
+</view>
+</view>

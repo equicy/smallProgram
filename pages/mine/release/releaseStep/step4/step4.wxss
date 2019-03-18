@@ -1,0 +1,134 @@
+.container{
+  background-color: #fafafa;
+  padding: 30rpx 20rpx;
+}
+.inner-container{
+  width: 710rpx;
+  height: 1145rpx;
+  border-radius: 20rpx;
+  box-shadow: 5rpx 5rpx 20rpx 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 25rpx 30rpx;
+  box-sizing: border-box;
+}
+.s-header{
+  font-size: 26rpx;
+  color: #333;
+}
+.s-family{
+  display: flex;
+  flex-direction: column;
+  border-top: 1rpx solid #ccc;
+  padding: 24rpx 0;
+  margin: 24rpx 0 0;
+}
+.s-title{
+  border-left: 10rpx solid #4cd94c;
+  padding-left: 18rpx;
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 23rpx;
+}
+.s-type{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.s-other{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.s-other2{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.s-other-data{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #ccc;
+  border-radius: 10rpx;
+  background-color: #fafafa;
+  padding-left: 20rpx;
+}
+.s-data{
+  width: 161rpx;
+  font-size: 24rpx;
+  color: #ccc;
+  display: flex;
+  flex-direction: row;
+}
+.s-data image{
+  margin-left: 15rpx;
+  width: 15rpx;
+  height: 30rpx;
+}
+.select-date{
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  color: #333;
+  justify-content: space-around;
+  border-radius: 10rpx;
+  background-color: #fafafa;
+}
+.s-input{
+  width: 651rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  background-color: #fafafa;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  color: #848484;
+}
+.placeholder{
+  color: #848484;
+  font-size: 24rpx;
+}
+.radio-group{
+  width: 500rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform:scale(0.7);
+}
+.s-apply{
+  color: #333;
+  font-size: 38rpx;
+  width: 100%;
+  text-align: center;
+  transform:scale(0.5);
+  margin-top: 23rpx;
+}
+.s-turn{
+  display: flex;
+  flex-direction: row;
+  margin-top: 300rpx;
+  height: 95rpx;
+  line-height: 95rpx;
+}
+.s-turn image{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 60rpx;
+  margin-right: 40rpx;
+  margin-top: 10rpx;
+}
+.s-btn{
+  width: 450rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 49rpx;
+  background-color: #4cd94c;
+  text-align: center;
+  color: #fff;
+}

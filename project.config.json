@@ -1,0 +1,109 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.0",
+	"appid": "wx55d2d0257050c5c4",
+	"projectname": "kpapp",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 10,
+			"list": [
+				{
+					"id": 0,
+					"name": "详情页",
+					"pathName": "pages/specialArea/specialArea",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "mine",
+					"pathName": "pages/mine/mine",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "detail",
+					"pathName": "pages/partTimeJob/partTimeDetail/partTimeDetail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "myresume",
+					"pathName": "pages/mine/myResume/myResume",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "resumeEdit",
+					"pathName": "pages/mine/myResume/resumeEdit/resumeEdit",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "partTimeRecord",
+					"pathName": "pages/mine/partTimeRecord/partTimeRecord",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "publisher",
+					"pathName": "pages/mine/release/publisher/publisher",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "step1",
+					"pathName": "pages/mine/release/releaseStep/step1/step1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "step2",
+					"pathName": "pages/mine/release/releaseStep/step2/step2",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "step3",
+					"pathName": "pages/mine/release/releaseStep/step3/step3",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "step4",
+					"pathName": "pages/mine/release/releaseStep/step4/step4"
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,27 @@
+<template name="recommend">
+  <view class='reContainer'>
+    <view class='recommend-context'>
+      <view class='recommend-title'>
+        被嫌弃的海王的一生
+      </view>
+      <view class='subhead'>
+        海洋局限了他，也使他更强大
+      </view>
+      <view class='recommend-message'>
+        <view class='reNumber'>
+          81 推荐
+        </view>
+        <view class='reComment'>
+          10 评论
+        </view>
+      </view>
+      <view class='source'>
+        <image src='/img/icon/aaaa.jpg'></image>
+        <text>卡片夜洞</text>
+      </view>
+    </view>
+    <view class='recommend-img'>
+      <image src='/img/icon/aaaa.jpg'></image>
+    </view>
+  </view>
+</template>

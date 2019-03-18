@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/partTimeJob/partTimeJob",
+    "pages/specialArea/specialArea",
+    "pages/specialArea/ListDetial/ListDetial",
+    "pages/partTimeJob/partTimeDetail/partTimeDetail",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/mine/myResume/myResume",
+    "pages/mine/myResume/resumeEdit/resumeEdit",
+    "pages/mine/myResume/authenticationEdit/authenticationEdit",
+    "pages/mine/partTimeRecord/partTimeRecord",
+    "pages/mine/mySave/mySave",
+    "pages/mine/release/publisher/publisher",
+    "pages/mine/release/releaseStep/step1/step1",
+    "pages/mine/release/releaseStep/step2/step2",
+    "pages/mine/release/releaseStep/step3/step3",
+    "pages/mine/release/releaseStep/step4/step4"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "卡片校园兼职",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/partTimeJob/partTimeJob",
+        "iconPath": "/img/icon/unhome.png",
+        "selectedIconPath": "/img/icon/home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/specialArea/specialArea",
+        "iconPath": "/img/icon/unresouce.png",
+        "selectedIconPath": "/img/icon/resouce.png",
+        "text": "专区"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/img/icon/unperson.png",
+        "selectedIconPath": "/img/icon/person.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

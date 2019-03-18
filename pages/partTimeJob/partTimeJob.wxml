@@ -1,0 +1,84 @@
+<import src="./partTimeList/partTimeList.wxml" />
+<import src="./detialSelect/detialSelect.wxml" />
+<view class='container' onPageScroll="onPageScroll">
+  <view class='kptop'>
+    <view class='locate'>
+      <view class='locate-icon'>
+        <image src='/img/icon/located.svg'></image>
+      </view>
+      <view class='locate-city'>
+        <text>天津</text>
+      </view>
+    </view>
+    <view class='search'>
+      <view class='search-input'>
+        <input type='text' placeholder='搜索你感兴趣的~' placeholder-class='placeholder-class'></input>
+      </view>
+      <view class='search-icon'>
+        <image src='/img/icon/search.svg'></image>
+      </view>
+    </view>
+  </view>
+  <view class='kpbannar'>
+    <swiper indicator-dots="{{indicatorDots}}" indicator-color="#C8F4C6" indicator-active-color="#41d63c" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="i">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='kpbottom'>
+    <view class='{{tapTop ? "topnav" : " "}}'>
+      <view class='type-tap'>
+        <view class='tap-family'>
+          <text>家教兼职</text>
+        </view>
+        <view class='tap-other'>
+          <text>其他兼职</text>
+        </view>
+      </view>
+
+      <view class='public-type'>
+        <view class='family-type'>
+          <view class='near {{listFilterShow ? "nearSelect":" "}}'
+           catchtap='listFilterShow'>
+            <text>离我最近</text>
+            <image src='/img/icon/list.png'></image>
+          </view>
+          <view class='filter {{listFilterSelectShow ? "nearSelect":" "}}'
+           catchtap='listFilterSelectShow'>
+            <image src='/img/icon/screen.png'></image>
+            <text>筛选</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='listFilter {{listFilterShow ? " ":"listFilterShow"}}'>
+        <view class='newest'>
+          <text>最新发布</text>
+        </view>
+        <view class='highest'>
+          <text>薪资最高</text>
+        </view>
+        <view class='nearest'>
+          <text>离我最近</text>
+        </view>
+      </view>
+      <view class='filterSelect {{listFilterSelectShow ? " ":"listFilterShow"}}'>
+        <template is='detialSelect' data="{{...area}}" />
+      </view>
+      
+      <view class='partTimeList'>
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+      </view>
+    </view>
+  </view>
+  <!-- <view wx:if="{{switchTap}}" class='public-type other-type'></view> -->
+</view>

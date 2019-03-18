@@ -1,0 +1,44 @@
+<view class='container'>
+  <form bindsubmit="formSubmit">
+    <view class='edit-item'>
+      <view class='edit-key'>
+        <text>所在学校</text>
+      </view>
+      <view class='edit-value'>
+        <input name="school" placeholder='请输入所在学校'></input>
+      </view>
+    </view>
+    <view class='edit-item'>
+      <view class='edit-key'>
+        <text>所学专业</text>
+      </view>
+      <view class='edit-value'>
+        <input name="major" placeholder='请输入所学专业'></input>
+      </view>
+    </view>
+    <view class='edit-item'>
+      <view class='edit-key'>
+        <text>年级</text>
+      </view>
+      <view class='edit-value'>
+        <input name="grade" placeholder='请输入所在年级'></input>
+      </view>
+    </view>
+    <view class='base-update'>
+      <view class='update-image'>
+        <image src='/img/icon/new/update-image.png'></image>
+      </view>
+      <view>请上传学生卡/证照片（正面）</view>
+    </view>
+    <view class='base-update'>
+      <view class='update-image'>
+        <image src='/img/icon/new/update-image.png'></image>
+      </view>
+      <view>请上传身份证照片正面</view>
+    </view>
+    <view class='submit-btn'>
+      <button form-type='submit'>提交</button>
+    </view>
+  </form>
+
+</view>

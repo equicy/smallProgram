@@ -1,0 +1,8 @@
+<import src="./specialList/specialList.wxml" />
+<view class='container'>
+  <template is='spcialList'/>
+  <template is='spcialList'/>
+  <template is='spcialList'/>
+  <template is='spcialList'/>
+  <template is='spcialList'/>
+</view>

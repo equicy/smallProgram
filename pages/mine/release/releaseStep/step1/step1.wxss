@@ -1,0 +1,70 @@
+.container{
+  background-color: #fafafa;
+  padding: 30rpx 20rpx;
+}
+.inner-container{
+  width: 710rpx;
+  height: 1145rpx;
+  border-radius: 20rpx;
+  box-shadow: 5rpx 5rpx 20rpx 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 25rpx 30rpx;
+  box-sizing: border-box;
+}
+.s-header{
+  font-size: 26rpx;
+  color: #333;
+}
+.s-family{
+  display: flex;
+  flex-direction: column;
+  border-top: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+  padding: 24rpx 0;
+  margin: 24rpx 0;
+}
+.s-title{
+  border-left: 10rpx solid #4cd94c;
+  padding-left: 18rpx;
+  font-size: 30rpx;
+  color: #333;
+  margin-bottom: 23rpx;
+}
+.s-text{
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  color: #333;
+}
+.s-value{
+  color: #ccc;
+  margin-left: 38rpx;
+  width: 500rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.s-item{
+  border: 1px solid #ccc;
+  width: 100rpx;
+  text-align: center;
+  margin-left: 58rpx;
+  margin-bottom: 30rpx
+}
+.s-family{
+  display: flex;
+  flex-direction: column;
+  padding: 24rpx 0;
+}
+.s-btn{
+  margin: 350rpx auto 0;
+  width: 561rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 49rpx;
+  background-color: #4cd94c;
+  text-align: center;
+  color: #fff;
+}

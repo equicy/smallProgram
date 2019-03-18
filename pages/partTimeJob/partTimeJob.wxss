@@ -1,0 +1,166 @@
+@import "./partTimeList/partTimeList.wxss";
+@import "./detialSelect/detialSelect.wxss";
+
+.container{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 750rpx;
+  background-color: #fff;
+}
+.kptop{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 712rpx;
+  height: 60rpx;
+}
+.kpbannar{
+  margin: 0 auto;
+  width: 712rpx!important;
+}
+.locate{
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.locate image{
+  width: 32rpx;
+  height: 40rpx;
+  margin-top: 12rpx;
+}
+.locate-city{
+  margin-left: 16rpx;
+  font-family: PingFang SC;
+  font-size: 34rpx;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.search{
+  display: flex;
+  flex-direction: row;
+}
+.search-input{
+  padding: 0;
+  width: 480rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  padding-left:31rpx;
+  box-sizing: border-box;
+  border: 1px solid #707070;
+  background-color: #ffffff;
+}
+.search-input input{
+  height: 100%;
+}
+.search image{
+  margin-left: -55rpx;
+  margin-top: 5rpx;
+  width: 56rpx;
+  height: 56rpx;
+}
+.placeholder-class{
+  font-size: 28rpx;
+}
+.kpbannar{
+  margin-top: 19rpx;
+  margin-bottom: 31rpx;
+  width: 100%;
+  border-radius: 20rpx;
+}
+.slide-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.kpbottom{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.type-tap{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 32rpx;
+}
+.tap-family{
+  border-bottom: 4px solid #4cd94c;
+  padding-bottom:16rpx; 
+}
+.public-type{
+  height: 78rpx;
+  line-height: 78rpx;
+  border-top: 1px solid #dfdede;
+  border-bottom: 1px solid #dfdede;
+  font-size: 28rpx;
+}
+.family-type{
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.filter{
+  height: 100%;
+  padding-left: 19rpx;
+  margin-left: 32rpx;
+  margin-right: 29rpx;
+  border-left: 1px solid #dfdede;
+}
+.near image{
+  width: 23rpx;
+  height: 23rpx;
+  margin-left: 13rpx;
+}
+.filter image{
+  width: 41rpx;
+  height: 41rpx;
+  margin-right: 12rpx;
+  vertical-align: middle;
+  margin-top: -10rpx;
+}
+.topnav{
+    position: fixed;
+    top: 0;
+    z-index:99;
+    background: #fff;
+    width: 100%;
+}
+.navTop{
+  position: fixed;
+}
+.listFilter{
+  width: 100%;
+  /* height: 1000rpx; */
+  text-align: center;
+  font-size: 24rpx;
+  color: #333333;
+}
+.newest{
+  height: 83rpx;
+  line-height: 83rpx;
+}
+.highest{
+  border-top: 1px solid #eeeeee;
+  height: 83rpx;
+  line-height: 83rpx;
+}
+.nearest{
+  border: 1px solid #eeeeee;
+  height: 83rpx;
+  line-height: 83rpx;
+}
+.listFilterShow{
+  display: none;
+}
+.nearSelect{
+  color: #4cd94c;
+}

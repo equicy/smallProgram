@@ -1,0 +1,77 @@
+<view class="container">
+  <view class='inner-container'>
+    <view class='s-header'>
+      4/4 更多职位要求
+    </view>
+    <view class='s-family'>
+      <view class='s-title'>工作日期</view>
+      <view class='select-date'>
+        <view class='p-left'>
+          <picker mode="date" fields="day" value="{{date}}" start="2019-01-01" end="2030-12-31" bindchange="getDateStart">
+            <view class="selectDate">
+              {{startData}}
+            </view>
+          </picker>
+        </view>
+        <view>至</view>
+        <view class='p-right'>
+          <picker mode="date" fields="day" value="{{date}}" start="2019-01-01" end="2030-12-31" bindchange="getDateEnd">
+            <view class="selectDate">
+              {{endData}}
+            </view>
+          </picker>
+        </view>
+      </view>
+    </view>
+    <view class='s-other'>
+      <view class='s-title'>工作地点</view>
+      <view class='s-data'>
+        <text>请选择地点</text>
+        <image src='/img/icon/new/turnRignt.png'></image>
+      </view>
+    </view>
+    <view class='s-other'>
+      <view class='s-title'>性别要求</view>
+      <view class=''>
+        <radio-group class="radio-group" bindchange="radioChange">
+          <label class="radio">
+            <radio value="any"/>
+             不限
+          </label>
+          <label class="radio">
+            <radio value="boy"/>
+             男生
+          </label>
+          <label class="radio">
+            <radio value="girl"/>
+             女生
+          </label>
+        </radio-group>
+      </view>
+    </view>
+    <view class='s-other2'>
+      <view class='s-title'>招聘联系人</view>
+      <view class='s-other-data'>
+        <input placeholder='填写发布人姓名'></input>
+      </view>
+    </view>
+    <view class='s-other2'>
+      <view class='s-title'>联系电话</view>
+      <view class='s-other-data'>
+        <input placeholder='填写联系方式'></input>
+      </view>
+    </view>
+    <view class='s-apply'>
+      <label>
+        <radio></radio>
+        允许短信通知报名情况
+      </label>
+    </view>
+    <view class='s-turn'>
+      <image bindtap='turnBack' src='/img/icon/new/111@.png'></image>
+      <view bindtap='turnStep4' class='s-btn'>
+        发布兼职
+      </view>
+    </view>
+  </view>
+</view>

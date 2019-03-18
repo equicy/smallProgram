@@ -1,0 +1,78 @@
+<view class="container">
+
+  <view class='header'>
+
+    <view class='avatar'>
+      <image mode='aspectFill' src='/img/picture1.jpg'></image>
+    </view>
+
+    <view class='context'>
+      <view class='top'>
+        <view class='name'>Gloria</view>
+        <view class='score'>
+          <image src='/img/icon/star.png'></image>
+          <view class='star'>4.5</view>
+        </view>
+      </view>
+      <view class='bottom'>
+        心成长的高度，就是将来的成就
+      </view>
+    </view>
+
+  </view>
+
+  <view class='resumeRecord'>
+    <view class='mystyle' bindtap='turnMyresume'>
+      <view class='myleft'>
+        <image src='/img/icon/new/icon_resume.png'></image>
+        <text>我的简历</text>
+      </view>
+      <view class='myright'>
+        <image src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+    <view bindtap='turnPartTimeRecord' class='mystyle'>
+      <view class='myleft'>
+        <image src='/img/icon/new/icon_record.png'></image>
+        <text>兼职记录</text>
+      </view>
+      <view class='myright'>
+        <image src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='resumeRecord'>
+    <view bindtap='turnMySave' class='mystyle'>
+      <view class='myleft'>
+        <image src='/img/icon/new/icon_collection.png'></image>
+        <text>我的收藏</text>
+      </view>
+      <view class='myright'>
+        <image src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+    <view bindtap='turnRelease' class='mystyle'>
+      <view class='myleft'>
+        <image src='/img/icon/new/icon_part-time.png'></image>
+        <text>发布兼职</text>
+      </view>
+      <view class='myright'>
+        <image src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+  </view>
+
+  <view class='resumeRecord'>
+    <view class='mystyle'>
+      <view class='myleft'>
+        <image src='/img/icon/new/icon_feedback.png'></image>
+        <text>意见反馈</text>
+      </view>
+      <view class='myright'>
+        <image src='/img/icon/turnRignt.png'></image>
+      </view>
+    </view>
+  </view>
+
+</view>

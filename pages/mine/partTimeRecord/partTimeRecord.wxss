@@ -1,0 +1,45 @@
+@import "/pages/partTimeJob/partTimeList/partTimeList.wxss";
+.scontainer{
+  width: 100%;
+  /* height: 1334rpx; */
+  box-sizing: border-box;
+}
+.tab {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: 20rpx 0;
+  color: #666;
+  box-sizing: border-box;
+}
+
+.topTabSwiper {
+  /* border-top: 1px solid #ccc; */
+  border-bottom: 1px solid #eee;
+  zoom: 1;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+   border-bottom: 8rpx solid #2bd92b
+}
+.swiperContext{
+
+}
+.swiper {
+  width: 100%;
+  box-sizing: border-box;
+  height: 1000rpx;
+}
+
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  /* height: 100%; */
+}

@@ -1,0 +1,89 @@
+
+<view class="container">
+  <view class='card-title'>
+    <image src='/img/icon/new/icon_Myresume.png'></image>
+    <text>卡片简历</text>
+  </view>
+  <view class='base-data'>
+    <view class='base-title'>
+      <text>基本资料</text>
+      <view bindtap='turnEdit' class='base-image'>
+        <image src='/img/icon/new/46.png'></image>
+      </view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>姓名<span></span></text>
+      </view>
+      <view class='base-value'>小卡</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>性别<span></span></text>
+      </view>
+      <view class='base-value'>男</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>出生日期<span></span></text>
+      </view>
+      <view class='base-value'>1995-12-24</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>联系方式<span></span></text>
+      </view>
+      <view class='base-value'>15822189909</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>电子邮箱<span></span></text>
+      </view>
+      <view class='base-value'>xiaoka@cardxiaoyuan.com</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>兼职经历<span></span></text>
+      </view>
+      <view class='base-value'>
+        图书整理，志愿者服务，服务员，保安保安保安保安图书整理
+      </view>
+    </view>
+  </view>
+  <view class='base-data'>
+    <view class='base-title'>
+      <text>学生认证</text>
+      <view bindtap='turnAuthentication' class='base-image'>
+        <image src='/img/icon/new/46.png'></image>
+      </view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>所在学校<span></span></text>
+      </view>
+      <view class='base-value'>天津大学</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>所学专业<span></span></text>
+      </view>
+      <view class='base-value'>计算机科学与技术</view>
+    </view>
+    <view class='base-context'>
+      <view class='base-key'>
+        <text decode='true'>年级<span></span></text>
+      </view>
+      <view class='base-value'>2015</view>
+    </view>
+  </view>
+  <view class='card-title card-bottom'>
+    <image src='/img/icon/new/icon_Myresume.png'></image>
+    <text>附件简历</text>
+  </view>
+  <view class='base-update'>
+    <view class='update-image'>
+      <image src='/img/icon/new/update-image.png'></image>
+    </view>
+    <view>请上传附件简历(大小不超过10M)</view>
+  </view>
+</view>

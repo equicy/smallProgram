@@ -1,0 +1,38 @@
+<view class="container">
+  <view class='inner-container'>
+    <view class='s-header'>
+      1/4 选择岗位类型
+    </view>
+    <view class='s-family'>
+      <view class='s-title'>家教兼职</view>
+      <view class='s-text'>
+        <view class='s-key'>选择年级</view>
+        <view class='s-value'>
+          <view class='s-item'>小学</view>
+          <view class='s-item'>初中</view>
+          <view class='s-item'>高中</view>
+        </view>
+      </view>
+      <view class='s-text'>
+        <view class='s-key'>选择科目</view>
+        <view class='s-value'>
+          <block wx:for="{{partType}}" wx:key="i">
+            <view class='s-item'>{{item}}</view>
+          </block>
+        </view>
+      </view>
+    </view>
+    <view class='s-other'>
+      <view class='s-title'>其他兼职</view>
+      <view class='s-text'>
+        <view class='s-key'>选择类型</view>
+        <view class='s-value'>
+          <view class='s-item'>其他</view>
+        </view>
+      </view>
+    </view>
+    <view bindtap='turnStep2' class='s-btn'>
+      下一步
+    </view>
+  </view>
+</view>

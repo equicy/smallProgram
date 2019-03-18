@@ -1,0 +1,30 @@
+<import src="/pages/partTimeJob/partTimeList/partTimeList.wxml" />
+<import src="/pages/specialArea/specialList/specialList.wxml" />
+<view class='scontainer'>
+  <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>
+      收藏兼职
+    </view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>
+      收藏文章
+    </view>
+  </view>
+  <view class='swiperContext'>
+    <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange">
+      <swiper-item class="swiper_con">
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+      </swiper-item>
+      <swiper-item>
+        <view class='swiper_con'>
+          <template is='spcialList'/>
+          <template is='spcialList'/>
+          <template is='spcialList'/>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

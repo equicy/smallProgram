@@ -1,0 +1,148 @@
+@import "./commentList/comment.wxss";
+@import "./recommend/recommend.wxss";
+.container{
+  background-color: #fff;
+}
+.Detailtop{
+  width: 100%;
+}
+.topImg image{
+  width: 100%;
+  height: 431rpx;
+}
+.topTitle{
+  font-size: 40rpx;
+  width: 100%;
+  text-align: center;
+  color:#333333;
+  margin-top: 32rpx;
+}
+.topAuthor{
+  display: flex;
+  flex-direction: row;
+  font-size: 24rpx;
+  color: #b1b1b1;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  float: right;
+}
+.Author{
+  margin-right: 40rpx;
+}
+.detailArticle{
+  margin-top: 54rpx;
+}
+.articleTitle{
+  display: flex;
+  flex-direction: row;
+  font-size: 0;
+  justify-content: center;
+}
+.articleTitle image{
+  width: 38rpx;
+  height: 38rpx;
+  margin-top: 5rpx;
+}
+.titleImgLater{
+  margin-top: 6rpx!important;
+}
+.titleImg text{
+  font-size: 30rpx;
+}
+.titleImg{
+  padding-bottom: 19rpx;
+  border-bottom: 1px solid#707070;
+}
+.articleContent{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20rpx;
+  font-size: 26rpx;
+  color: #333333;
+}
+.articleBottom{
+  margin-top: 30rpx
+}
+.articleData{
+  margin: 26rpx 20rpx 0 20rpx;
+  height: 81rpx;
+  /* line-height: 81rpx; */
+  font-size: 24rpx;
+  align-items: center;
+  color: #999999;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top:1px solid #f0f0f0;
+}
+
+.Adata{
+  display: flex;
+  flex-direction: row;
+}
+.AdataItem{
+  display: flex;
+  flex-direction: row;
+}
+.AdataItem image{
+  width: 38rpx;
+  height: 38rpx;
+}
+.space{
+  width: 100%;
+  height: 20rpx;
+  background-color: #f0f0f0;
+}
+.comment{
+  display: flex;
+  flex-direction: column;
+  font-size: 30rpx;
+  color: #333333;
+  width: 100%;
+}
+.commentNumber{
+  height: 91rpx;
+  line-height: 91rpx;
+  border: 1px solid #f0f0f0;
+  padding-left: 20rpx;
+}
+.comment-list{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20rpx
+}
+.more{
+  font-size: 20rpx;
+  color: #999;
+  text-align: center;
+  margin: 25rpx 0;
+}
+.recommend{
+  width: 100%;
+  color: #333333;
+}
+.guess{
+  height: 91rpx;
+  line-height: 91rpx;
+  border: 1px solid #f0f0f0;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+}
+.interaction{
+  position: fixed;
+  bottom: 25rpx;
+  left: 20rpx;
+  right: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.interaction image{
+  border-radius: 50rpx;
+  width: 80rpx;
+  height: 80rpx;
+}
+.interaction-right image:first-child{
+  margin-right: 26rpx;
+}

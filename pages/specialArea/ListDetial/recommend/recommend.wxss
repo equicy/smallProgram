@@ -1,0 +1,48 @@
+.reContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 32rpx 20rpx;
+  border-bottom: 1px solid #f0f0f0;
+}
+.recommend-context{
+  display: flex;
+  flex-direction: column;
+}
+.recommend-title{
+  font-size: 34rpx;
+  color: #333;
+}
+.subhead{
+  font-size: 24rpx;
+  color: #999;
+  margin: 7rpx 0;
+}
+.recommend-message{
+  display: flex;
+  flex-direction: row;
+  font-size: 18rpx;
+  color: #999;
+}
+.reComment{
+  margin-left: 20rpx;
+}
+.source{
+  margin-top: 15rpx;
+  display: flex;
+  flex-direction: row;
+}
+.source image{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 20px;
+  margin-right: 11rpx;
+}
+.source text{
+  font-size: 20rpx;
+  color: #333;
+}
+.recommend-img image{
+  width: 230rpx;
+  height: 160rpx;
+}

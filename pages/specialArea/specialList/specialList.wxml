@@ -1,0 +1,15 @@
+<template name="spcialList">
+  <view class='spcialList' catchtap='turnListDetial'>
+    <view class='spcialImg'>
+      <image src='/img/bannar3.jpg'></image>
+    </view>
+    <view class='imgTitle'>
+      <view class='TitleFather'>
+        <text>无法撤回的2018</text>
+      </view>
+      <view class='TitleSon'>
+        <text>"有锦鲤有告别梦想"</text>
+      </view>
+    </view>
+  </view>
+</template>

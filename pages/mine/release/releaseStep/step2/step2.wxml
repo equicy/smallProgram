@@ -1,0 +1,31 @@
+<view class="container">
+  <view class='inner-container'>
+    <view class='s-header'>
+      2/4 完善兼职信息
+    </view>
+    <view class='s-family'>
+      <view class='s-title'>岗位标题</view>
+      <view class='s-input'>
+        <input placeholder='例:小学语文老师' placeholder-class='placeholder' maxlength='20'></input>
+      </view>
+    </view>
+    <view class='s-other'>
+      <view class='s-title'>工作内容</view>
+      <view class='s-area'>
+        <textarea maxlength='300' placeholder='工作内容+工作要求'></textarea>
+      </view>
+    </view>
+    <view class='s-bottom'>
+      <view class='s-title'>共招聘人数</view>
+      <view class='s-input'>
+        <input placeholder='请输入招聘人数' placeholder-class='placeholder' maxlength='20'></input>
+      </view>
+    </view>
+    <view class='s-turn'>
+      <image bindtap='turnBack' src='/img/icon/new/111@.png'></image>
+      <view bindtap='turnStep3' class='s-btn'>
+        下一步
+      </view>
+    </view>
+  </view>
+</view>

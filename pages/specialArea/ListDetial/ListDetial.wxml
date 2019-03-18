@@ -1,0 +1,96 @@
+<import src="./commentList/comment.wxml" />
+<import src="./recommend/recommend.wxml" />
+<view class='container'>
+  <view class='Detailtop'>
+    <view class='topImg'>
+      <image src='/img/bannar.jpg'></image>
+    </view>
+    <view class='topTitle'>
+      <text>人间虽苦，但你是草莓味儿的</text>
+    </view>
+    <view class='topAuthor'>
+      <view class='Author'>
+        <text>原创：Kepler</text>
+      </view>
+      <view class='topDate'>
+        <text>2018.11.15</text>
+      </view>
+    </view>
+  </view>
+  <view class='detailArticle'>
+    <view class='articleTitle'>
+      <image src='/img/icon/located.png'></image>
+      <view class='titleImg'>
+        <text>致草莓味的你</text>
+      </view>
+      <image class='titleImgLater' src='/img/icon/located.png'></image>
+    </view>
+    <view class='articleContent'>
+      <text>
+            “我一直觉得，伴侣的好决不在于他的普世价值中表现出来的那些，让女生走马路内侧，说话轻声，制造浪漫之类。我喜欢的，是一个正常人灵魂里躲着的精神病，是一个智者脑中存在的白痴，是一朵玫瑰脚下的泥土，是宇宙里最特别的那颗星，只被我看见的那部分天真。”
+    而你，就是我狭小宇宙里最特别的那颗星。
+    
+    “我一直觉得，伴侣的好决不在于他的普世价值中表现出来的那些，让女生走马路内侧，说话轻声，制造浪漫之类。我喜欢的，是一个正常人灵魂里躲着的精神病，是一个智者脑中存在的白痴，是一朵玫瑰脚下的泥土，是宇宙里最特别的那颗星，只被我看见的那部分天真。”
+    而你，就是我狭小宇宙里最特别的那颗星。
+      </text>
+    </view>
+    <view class='articleTitle articleBottom'>
+      <image src='/img/icon/located.png'></image>
+      <view class='titleImg'>
+        <text>END</text>
+      </view>
+      <image class='titleImgLater' src='/img/icon/located.png'></image>
+    </view>
+    <view class='articleData'>
+      <view class='Atime'>
+        2018.11.15
+      </view>
+      <view class='Adata'>
+        <view class='AdataItem'>
+          <image src='/img/icon/located.png'></image>
+          <text>2235</text>
+        </view>
+        <view class='AdataItem'>
+          <image src='/img/icon/located.png'></image>
+          <text>569</text>
+        </view>
+        <view class='AdataItem'>
+          <image src='/img/icon/located.png'></image>
+          <text>223</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='space'></view>
+  <view class='comment'>
+    <view class='commentNumber'>
+      6条评论
+    </view>
+    <view class='comment-list'>
+      <template is="comment"/>
+      <template is="comment"/>
+      <template is="comment"/>
+      <view class='more'>查看更多评论</view>
+    </view>
+  </view>
+  <view class='space'></view>
+  <view class='recommend'>
+    <view class='guess'>
+      猜你喜欢
+    </view>
+    <view class='recommend-list'>
+      <template is="recommend" />
+      <template is="recommend" />
+      <template is="recommend" />
+    </view>
+  </view>
+  <view class='interaction'>
+    <view class='interaction-left'>
+      <image src="/img/icon/new/icon_comments@2x.png"></image>
+    </view>
+    <view class='interaction-right'>
+      <image src="/img/icon/new/icon_collection@2x.png"></image>
+      <image src="/img/icon/new/icon_like@2x.png"></image>
+    </view>
+  </view>
+</view>

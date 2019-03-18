@@ -1,0 +1,100 @@
+.container{
+  background-color: #fafafa;
+  font-size: 34px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 280rpx;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 45rpx;
+  box-sizing: border-box;
+}
+.avatar image{
+  width: 170rpx;
+  height: 170rpx;
+  border-radius: 50%;
+}
+.name{
+  margin-top: -20rpx;
+}
+
+.score image{
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 9rpx;
+}
+.star{
+  font-size: 24rpx;
+  margin-top: 3rpx;
+}
+.context{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+}
+.top{
+  display: flex;
+  flex-direction: row;
+  font-size: 40rpx;
+  color: #333;
+}
+.score{
+  display: flex;
+  flex-direction: row;
+  color: #ff597a;
+  height: 26rpx;
+  line-height: 26rpx;
+  margin-left: 22rpx;
+  font-size: 0;
+}
+.bottom{
+  font-size: 24rpx;
+  color: #999;
+}
+.resumeRecord{
+  margin-top: 20rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+}
+.mystyle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 92rpx;
+  align-items: center;
+  padding: 0 20rpx;
+  border-top:1px solid #fafafa;
+  border-bottom:1px solid #fafafa;
+  box-sizing: border-box;
+}
+.myleft{
+  display: flex;
+  flex-direction: row;
+  font-size: 34rpx;
+  color: #333;  
+}
+.myleft image{
+  width: 30rpx;
+  height: 34rpx;
+  margin-top:10rpx;
+  margin-right: 19rpx;
+}
+.myright{
+  display: flex;
+  align-items: center;
+}
+.myright image{
+  width: 15rpx;
+  height: 34rpx;
+}

@@ -1,0 +1,39 @@
+<import src="/pages/partTimeJob/partTimeList/partTimeList.wxml" />
+<view class='scontainer'>
+  <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>
+      全部
+    </view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>
+      已报名
+    </view>
+    <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent'>
+      已录取
+    </view>
+  </view>
+  <view class='swiperContext'>
+    <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange">
+      <swiper-item class="swiper_con">
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+        <template is="partTimeList" />
+      </swiper-item>
+      <swiper-item>
+        <view class='swiper_con'>
+          <template is="partTimeList" />
+          <template is="partTimeList" />
+          <template is="partTimeList" />
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='swiper_con'>
+          <template is="partTimeList" />
+          <template is="partTimeList" />
+          <template is="partTimeList" />
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>

@@ -1,0 +1,39 @@
+<view class="container">
+  <view class='inner-container'>
+    <view class='s-header'>
+      3/4 薪资报酬
+    </view>
+    <view class='s-family'>
+      <view class='s-title'>基本薪资</view>
+      <view class='s-input'>
+        <input
+         placeholder='请输入薪资（单位为元）'
+         placeholder-class='placeholder' maxlength='20'></input>
+      </view>
+      <view class='s-type'>
+        <view class='s-item'>小时</view>
+        <view class='s-item'>天</view>
+        <view class='s-item'>周</view>
+        <view class='s-item'>月</view>
+        <view class='s-item'>次</view>
+        <view class='s-item'>其他</view>
+      </view>
+    </view>
+    <view class='s-other'>
+      <view class='s-title'>结算方式</view>
+      <view class='s-way'>
+        <view class='s-way-item'>日结</view>
+        <view class='s-way-item'>周结</view>
+        <view class='s-way-item'>月结</view>
+        <view class='s-way-item'>完工结</view>
+        <view class='s-way-item'>其他</view>
+      </view>
+    </view>
+    <view class='s-turn'>
+      <image bindtap='turnBack' src='/img/icon/new/111@.png'></image>
+      <view bindtap='turnStep3' class='s-btn'>
+        下一步
+      </view>
+    </view>
+  </view>
+</view>
